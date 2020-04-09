@@ -36,7 +36,7 @@ MIDDLEWARE.insert(
 AUTHENTICATION_BACKENDS = (
     # Enable this to allow LDAP authentication.
     # See INSTALL for more information.
-    # 'django_auth_ldap.backend.LDAPBackend',
+    # 'ivatar.ivataraccount.backends.LDAPBackend',
     'django_openid_auth.auth.OpenIDBackend',
     'django.contrib.auth.backends.ModelBackend',
 )
